@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar form {
+  padding-left: .5em;
+}
+
+.carousel-caption h3 {
+  font-size: 3em;
+  padding-left: 5%;
+}
+
+.jumbotron p {
+  font-size: 1.75em;
+}
+
+.featurette {
+  display: inline-flex;
+  padding-bottom: 3%;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    font-size: 3.5em;
+    line-height: 1;
+    letter-spacing: .75rem;
+    text-transform: uppercase;
+    padding: .2em;
+    margin-left: 2em;
+    margin-right: 1em;
+    border-style: groove;
+}
+
+.featurette-heading strong {
+  text-decoration: underline;
+}
+
+.break img {
+  height: 75%;
+  width:100%;
+}
+
+.end {
+  background-color: black;
+}
+
+.contact label {
+  color: white;
+}
+
+.founder {
+  position: relative;
+  left: 70%;
+  margin-top: -18em;
+  margin-bottom: 20px;
+}
+
+/*Media Queries */
+
+@media (max-width: 1024px) {
+  .future{
+    font-size: .75em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .future {
+    display: none;
+  }
+  .fb-page {
+    padding-left: 10em;
+  }
+
+  .founder {
+    position: relative;
+    left: 60%;
+    margin-top: -6em;
+    margin-bottom: 20px;
+  }
+
+ }
+
+ @media (max-width: 425px) {
+   .fb-page{
+     padding-left: 1em;
+   }
+
+   .break img {
+     display: none;
+   }
+
+   .founder {
+     position: relative;
+     left: 15%;
+     margin-top: 2em;
+     margin-bottom: 20px;
+   }
+ }
+
+ @media (max-width: 375px) {
+   .fb-page {
+     padding-left: 0px;
+   }
+
+   .break img {
+     display: none;
+   }
+ }
