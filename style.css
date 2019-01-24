@@ -49,6 +49,10 @@
   color: white;
 }
 
+.card img {
+  height: 500px;
+}
+
 .founder {
   position: relative;
   left: 70%;
